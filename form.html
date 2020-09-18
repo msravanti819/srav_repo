@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="message.html" method="POST">
+
+        <label for="name">Name</label>
+      <input type="text" name="Name"/>
+
+    Date <input type="date" name="Start-date" min="2020-06-1" max="2020-06-10"/>
+
+    Password <input type="password" name="Password"/>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"/>
+
+    <label for="qty">Quantity</label>
+    <input type="number" id="qty" name="qty" min="1" max="10"/>
+
+    <label for="searchFor">Search</label>
+    <input type="search" id="searchFor" name="searchFor"/>
+
+    <label for="address">Address</label>
+    <textarea id="address" name="address"></textarea>
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+        <option value="mas">chennai</option>
+        <option value="bng">mumbai</option>
+        <option value="hyd">hyderabad</option>
+    </select>
+
+    <label for="box">MainInterests</label>
+<div id="box">
+    <label ><input type="radio"  name="box" value="sports"/>Sports</label>
+
+    <label><input type="radio"  name="box" value="Music"/>Music</label>
+</div>
+
+    <button>
+        Enter
+    </button>
+    <input type="submit" value="checkout"/>
+    <input type="reset" value="Reset"/>
+</form>
+</body>
+</html> 
